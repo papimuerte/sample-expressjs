@@ -21,7 +21,7 @@ const startupMessage = `
 [0m
 `
 
-app.get('/', (req, res) => res.send('Hello World has not been been updated!'))
+app.get('/', (req, res) => res.send('Hello World has been updated!'))
 
 for (let line of startupMessage.split("\n")) {
 	console.log(line)
