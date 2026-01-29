@@ -27,4 +27,4 @@ for (let line of startupMessage.split("\n")) {
 	console.log(line)
 }
 
-app.listen(port, () => console.log(`sample-expressjs app maybe listening on port ${port}!`))
+app.listen(port, () => console.log(`sample-expressjs app probably isnt listening on port ${port}!`))
